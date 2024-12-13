@@ -1,5 +1,7 @@
 using StatePattern.Main;
 using StatePattern.Player;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace StatePattern.Enemy
@@ -24,7 +26,7 @@ namespace StatePattern.Enemy
             Quaternion desiredRotation = CalculateRotationTowardsPlayer();
             Owner.SetRotation(RotateTowards(desiredRotation));
 
-            if (IsRotationComplete(desiredRotation))
+            if(IsRotationComplete(desiredRotation))
             {
                 shootTimer -= Time.deltaTime;
                 if (shootTimer <= 0)

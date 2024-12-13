@@ -24,7 +24,7 @@ namespace StatePattern.Enemy
 
         private void SetOwner()
         {
-            foreach (IState state in States.Values)
+            foreach(IState state in States.Values)
             {
                 state.Owner = Owner;
             }
