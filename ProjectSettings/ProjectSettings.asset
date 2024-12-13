@@ -824,11 +824,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 
+  cloudProjectId: 75013f90-d147-46ea-be72-55aa68717191
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: Shadow-Slayer
+  organizationId: unity_jt3ua84xpgsblq
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
