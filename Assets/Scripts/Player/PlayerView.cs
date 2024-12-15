@@ -28,7 +28,7 @@ namespace StatePattern.Player
             {
                 var enemyController = other.GetComponent<EnemyView>().Controller;
                 Controller.AddEnemy(enemyController);
-                enemyController.ToggleEnemyColor(true);
+                enemyController.ToggleEnemyColor(EnemyColorType.Vulnerable);
             }
         }
 
@@ -38,7 +38,7 @@ namespace StatePattern.Player
             {
                 var enemyController = other.GetComponent<EnemyView>().Controller;
                 Controller.RemoveEnemy(enemyController);
-                enemyController.ToggleEnemyColor(false);
+                enemyController.ToggleEnemyColor(EnemyColorType.Default);
             }
         }
     }
