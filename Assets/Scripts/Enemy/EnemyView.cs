@@ -1,5 +1,4 @@
-﻿using StatePattern.Main;
-using StatePattern.Player;
+﻿using StatePattern.Player;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
