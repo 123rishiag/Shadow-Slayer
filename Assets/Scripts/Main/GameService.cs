@@ -39,6 +39,7 @@ namespace StatePattern.Main
             LevelService = new LevelService(levelScriptableObjects);
             PlayerService = new PlayerService(playerScriptableObject);
             EnemyService = new EnemyService();
+            UIService.Init();
         }
 
         private void Start() => UIService.ShowLevelSelectionUI(levelScriptableObjects.Count);
