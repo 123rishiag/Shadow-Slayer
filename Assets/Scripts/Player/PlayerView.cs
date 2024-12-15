@@ -1,7 +1,5 @@
 ﻿using StatePattern.Enemy;
-using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace StatePattern.Player
 {
@@ -26,7 +24,7 @@ namespace StatePattern.Player
 
         private void OnTriggerEnter(Collider other)
         {
-            if(other.GetComponent<EnemyView>() != null && !other.isTrigger)
+            if (other.GetComponent<EnemyView>() != null && !other.isTrigger)
             {
                 var enemyController = other.GetComponent<EnemyView>().Controller;
                 Controller.AddEnemy(enemyController);
