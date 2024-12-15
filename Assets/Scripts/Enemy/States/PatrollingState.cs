@@ -1,5 +1,4 @@
 ﻿using StatePattern.StateMachine;
-using System.Collections;
 using UnityEngine;
 
 namespace StatePattern.Enemy
@@ -22,7 +21,7 @@ namespace StatePattern.Enemy
 
         public void Update()
         {
-            if(ReachedDestination())
+            if (ReachedDestination())
                 stateMachine.ChangeState(States.IDLE);
         }
 
@@ -30,7 +29,7 @@ namespace StatePattern.Enemy
 
         private void SetNextWaypointIndex()
         {
-            if (currentPatrollingIndex == Owner.Data.PatrollingPoints.Count-1)
+            if (currentPatrollingIndex == Owner.Data.PatrollingPoints.Count - 1)
                 currentPatrollingIndex = 0;
             else
                 currentPatrollingIndex++;
