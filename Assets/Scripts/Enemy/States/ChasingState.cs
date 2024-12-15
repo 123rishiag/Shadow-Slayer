@@ -1,6 +1,8 @@
-using StatePattern.Main;
+﻿using StatePattern.Main;
 using StatePattern.Player;
 using StatePattern.StateMachine;
+using System.Collections;
+using UnityEngine;
 
 namespace StatePattern.Enemy
 {
@@ -29,6 +31,7 @@ namespace StatePattern.Enemy
         }
 
         public void OnStateExit() => target = null;
+
 
         private void SetTarget() => target = GameService.Instance.PlayerService.GetPlayer();
 
