@@ -1,8 +1,6 @@
 # **Shadow Slayer**
 
-Shadow Slayer is an action-packed stealth game inspired by the popular mobile game **Hunter Assassin**, featuring advanced **State Machines** to manage dynamic enemy AI. Players face unique enemy behaviors and strategies, making for an immersive and challenging experience.
-
-This project demonstrates the power of the **State Design Pattern** and **State Machines** in implementing scalable and dynamic enemy AI. Enemies exhibit a variety of behaviors, such as patrolling, chasing, shooting, and teleporting, which adapt based on game events like player actions.
+An action-packed stealth game inspired by the popular mobile game **Hunter Assassin**, featuring advanced **State Machines** to manage dynamic enemy AI. Players face unique enemy behaviors and strategies, making for an immersive and challenging experience.
 
 ---
 
